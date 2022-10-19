@@ -1,0 +1,2 @@
+# workshop-javascript
+Practical Course
