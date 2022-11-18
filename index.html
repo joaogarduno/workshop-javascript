@@ -7,23 +7,18 @@
     <title>Manipulación del DOM Básica - Curso Práctico de Javascript</title>
 </head>
 <body>
-    <h1>Manipulación del DOM básica | 11. Escribiendo HTML desde Javascript</h1>
-
-    <!-- SELECCIONAR ATRIBUTO INVENTADO -->
-    <h2 pantalla="screenHD">Ejemplo de atributo inventado</h2>
-
-    <!-- MODIFICAMOS EL ATRIBUTO CLASES -->
-    <h3 class="green">Ejemplo de cambios de atributos de tipo "Clase"</h3>
-
-    <!-- PARRAFOS -->
-    <p>This is a paragraph</p>
-    <p class="paragraph">This is another paragraph with Class</p>
-    <p id="paragraphId">This is a new paragraph with ID</p>
-
+    <h1 id="titlePage">Manipulación del DOM básica | 11. Escribiendo HTML desde Javascript</h1>
 
     <!-- INPUTS -->
-    <input type="text" placeholder="Write something in this Input">
-    <!-- <input type="text" id="input-id" placeholder="Write something in this Input" onfocus="myInputText()"> -->
+    <input type="text" id="calculo1">
+    <input type="text" id="calculo2">
+    <!-- <input type="text" id="calculo2" onchange="console.log('Cambio en el input')"> -->
+
+    <button id="btnCalcular" onclick="btnOnClick()">Calcular</button>
+    <!-- <button id="btnCalcular" onclick="console.log('Clic del botón')">Calcular</button> -->
+
+    <!-- Mostrando el resultado en un archivo HTML y no en consola -->
+    <p id="result"></p>
 
     <script src="./js/script.js"></script>
 </body>
