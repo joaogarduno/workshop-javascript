@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.firstSection, .secoundSection{
+    margin: 0 auto;
+}
+/* .firstSection{} */
+
+/* ARTICLE SECTION */
+.section__article--one, .section__article--two{
+    outline: 1px solid red;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+/* PARAGRAPHS */
+.paragraph__section--one{
+    outline: 1px solid red;
+    width: 50%;
+}
+.paragraph__section--two{
+    outline: 1px solid red;
+    width: 50%;
+}
+/* .secoundSection{} */
